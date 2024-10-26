@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>aa0f2aca-a05a-4041-b6a1-db7ed0bd9381</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Data.SqlClient" Version="5.2.2" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Dbscripts\Alter Table scripts\" />
+    <Folder Include="Dbscripts\Insert script\" />
+    <Folder Include="Dbscripts\Release\" />
+    <Folder Include="Dbscripts\Stored Procedures\" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,28 @@
+# Build results
+[Bb]in/
+[Oo]bj/
+out/
+# Visual Studio files
+*.suo
+*.user
+*.userprefs
+*.vs/
+.vscode/
+# Visual Studio Code settings
+.vscode/
+# ASP.NET Core secrets
+secrets.json
+appsettings.Development.json
+# NuGet Packages
+*.nupkg
+*.snupkg
+packages/
+# Windows thumbnail cache files
+Thumbs.db
+
+# macOS files
+.DS_Store
+# Logs
+*.log
+# Azure Functions
+local.settings.json
