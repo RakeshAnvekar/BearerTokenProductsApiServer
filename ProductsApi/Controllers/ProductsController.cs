@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using ProductsApi.BusinessLogic.Interfaces;
 
 namespace ProductsApi.Controllers
@@ -15,6 +16,7 @@ namespace ProductsApi.Controllers
             _productLogic = productLogic;
         }
         [HttpGet("AllProducts")]
+        [Authorize]
         public async Task<IActionResult> Get()
         {
             try
@@ -29,6 +31,7 @@ namespace ProductsApi.Controllers
                 return BadRequest(ex.Message);
             }
         }
+        [Authorize]
         [HttpGet("GetProduct")]
         public async Task<IActionResult> Get(int id)
         {
