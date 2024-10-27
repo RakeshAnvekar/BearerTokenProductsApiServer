@@ -17,14 +17,17 @@ builder.Services.AddSingleton<IDbExecutor, DbExecutor>();
 
 #region Business Logic
 builder.Services.AddScoped<IProductLogic, ProductLogic>();
+builder.Services.AddScoped<IUserLogic, UserLogic>();
 #endregion
 
 #region Repository
 builder.Services.AddSingleton<IProductRepository, ProductRepository>();
+builder.Services.AddSingleton<IUserRepository, UserRepository>();
 #endregion
 
 #region Mappers
 builder.Services.AddSingleton<IProductMapper, ProductMapper>();
+builder.Services.AddSingleton<IUserMapper, UserMapper>();
 #endregion
 
 // Add services to the container.

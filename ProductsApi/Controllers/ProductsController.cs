@@ -25,7 +25,22 @@ namespace ProductsApi.Controllers
             }
             catch (Exception ex)
             {
-                _logger.LogError($"Error Whule getting products details, Exception {ex.Message}");
+                _logger.LogError($"Error While getting products details, Exception {ex.Message}");
+                return BadRequest(ex.Message);
+            }
+        }
+        [HttpGet("GetProduct")]
+        public async Task<IActionResult> Get(int id)
+        {
+            try
+            {
+                var result = await _productLogic.GetAsync(id,HttpContext.RequestAborted);
+                return Ok(result);
+
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError($"Error Whule getting product details of product id {id}, Exception {ex.Message}");
                 return BadRequest(ex.Message);
             }
         }

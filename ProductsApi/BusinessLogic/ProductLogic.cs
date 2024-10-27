@@ -19,6 +19,6 @@ public sealed class ProductLogic : IProductLogic
 
     public async Task<Product?> GetAsync(int productId, CancellationToken cancellationToken)
     {
-        return new Product();
+        return await _productRepository.GetAsync(productId, cancellationToken);
     }
 }

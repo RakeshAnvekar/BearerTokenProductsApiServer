@@ -14,6 +14,20 @@ Create Table Product(
  Foreign key (CategoryId) references ProductCategory(CategoryId)	
 )
 
+create Table UserType
+(
+UserTypeId  int not null primary key,
+UserType varchar(50) not null
+)
 
 
+Create Table UserDetails
+(
+UserId int not null primary key,
+UserName varchar(100) not null,
+UserEmail varchar(100) not null,
+UserPassword varchar(100) not null,
+UserTypeId int not null,
+Foreign key (UserTypeId) references UserType (UserTypeId)
+)
 
