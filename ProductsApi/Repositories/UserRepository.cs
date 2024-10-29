@@ -18,6 +18,11 @@ public class UserRepository : IUserRepository
     }
     public async Task<User?> GetUserAsync(UserLogin userLogin, CancellationToken cancellationToken)
     {
+        if (userLogin == null) throw new ArgumentNullException(nameof(userLogin));
+
+        if (string.IsNullOrEmpty(userLogin.UserName)) throw new ArgumentNullException(nameof(userLogin.UserName));
+        if (string.IsNullOrEmpty(userLogin.UserPassword)) throw new ArgumentNullException(nameof(userLogin.UserPassword));
+
         var inputParams = new Dictionary<string, object>()
         {
             {"@UserName",userLogin.UserName },

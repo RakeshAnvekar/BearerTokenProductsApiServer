@@ -8,7 +8,7 @@ public sealed class ProductMapper : IProductMapper
 {
     public Product? MapProduct(IDataReader reader)
     {
-        if (reader.Read())
+        if ( reader.Read())
         {
             return new Product
             {
