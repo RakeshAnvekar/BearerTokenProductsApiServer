@@ -15,6 +15,7 @@ internal sealed class InstanceHelper
     private readonly ProductRepository? _productRepository;
     private readonly UserRepository? _userRepository;
     private WebApplication _webApplication;
+
     #endregion
 
     #region constructor
@@ -45,7 +46,6 @@ internal sealed class InstanceHelper
 
         #endregion
     }
-  
 
    
     }
