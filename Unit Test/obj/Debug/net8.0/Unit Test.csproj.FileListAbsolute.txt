@@ -149,3 +149,19 @@ C:\Users\Admin\source\repos\BearerTokenProductsApiServer\Unit Test\obj\Debug\net
 C:\Users\Admin\source\repos\BearerTokenProductsApiServer\Unit Test\obj\Debug\net8.0\Unit Test.pdb
 C:\Users\Admin\source\repos\BearerTokenProductsApiServer\Unit Test\obj\Debug\net8.0\Unit Test.genruntimeconfig.cache
 C:\Users\Admin\source\repos\BearerTokenProductsApiServer\Unit Test\obj\Debug\net8.0\ref\Unit Test.dll
+C:\Users\Admin\source\repos\BearerTokenProductsApiServer\Unit Test\bin\Debug\net8.0\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\Admin\source\repos\BearerTokenProductsApiServer\Unit Test\bin\Debug\net8.0\cs\Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll
+C:\Users\Admin\source\repos\BearerTokenProductsApiServer\Unit Test\bin\Debug\net8.0\de\Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll
+C:\Users\Admin\source\repos\BearerTokenProductsApiServer\Unit Test\bin\Debug\net8.0\es\Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll
+C:\Users\Admin\source\repos\BearerTokenProductsApiServer\Unit Test\bin\Debug\net8.0\fr\Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll
+C:\Users\Admin\source\repos\BearerTokenProductsApiServer\Unit Test\bin\Debug\net8.0\it\Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll
+C:\Users\Admin\source\repos\BearerTokenProductsApiServer\Unit Test\bin\Debug\net8.0\ja\Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll
+C:\Users\Admin\source\repos\BearerTokenProductsApiServer\Unit Test\bin\Debug\net8.0\ko\Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll
+C:\Users\Admin\source\repos\BearerTokenProductsApiServer\Unit Test\bin\Debug\net8.0\pl\Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll
+C:\Users\Admin\source\repos\BearerTokenProductsApiServer\Unit Test\bin\Debug\net8.0\pt-BR\Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll
+C:\Users\Admin\source\repos\BearerTokenProductsApiServer\Unit Test\bin\Debug\net8.0\ru\Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll
+C:\Users\Admin\source\repos\BearerTokenProductsApiServer\Unit Test\bin\Debug\net8.0\tr\Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll
+C:\Users\Admin\source\repos\BearerTokenProductsApiServer\Unit Test\bin\Debug\net8.0\zh-Hans\Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll
+C:\Users\Admin\source\repos\BearerTokenProductsApiServer\Unit Test\bin\Debug\net8.0\zh-Hant\Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll
+C:\Users\Admin\source\repos\BearerTokenProductsApiServer\Unit Test\bin\Debug\net8.0\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\Admin\source\repos\BearerTokenProductsApiServer\Unit Test\bin\Debug\net8.0\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml

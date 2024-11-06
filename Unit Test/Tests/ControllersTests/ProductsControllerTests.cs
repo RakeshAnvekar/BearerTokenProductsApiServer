@@ -30,10 +30,25 @@ public class ProductsControllerTests
                      .ReturnsAsync(dataHelper.products);
 
         // Act
-        var res = await _productsController.Get(); // Ensure Get() is async
+        var res = await _productsController.Get();
 
         // Assert
         Microsoft.VisualStudio.TestTools.UnitTesting.Assert.IsNotNull(res);
-        }
+     }
+    [Test]
+    public async Task GetProductsByIdSuccessfullyRetrieved()
+    {
+        // Arrange
+        int id = 1;
+        DataHelper dataHelper = new DataHelper();
+        _productLogic.Setup(service => service.GetAsync(id, CancellationToken.None))
+                      .ReturnsAsync(dataHelper.products[0]);
+
+        // Act
+        var res = await _productsController.Get(id);
+
+        // Assert
+        Microsoft.VisualStudio.TestTools.UnitTesting.Assert.IsNotNull(res);
+    }
 }
 
