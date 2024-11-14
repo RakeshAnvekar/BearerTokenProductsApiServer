@@ -26,10 +26,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Tests\RepositoryTests\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\ProductsApi\ProductsApi.csproj" />
   </ItemGroup>
 

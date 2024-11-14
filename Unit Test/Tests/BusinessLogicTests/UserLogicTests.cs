@@ -1,11 +1,6 @@
 ﻿using Moq;
 using ProductsApi.BusinessLogic;
 using ProductsApi.Repositories.Interfaces;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using Unit_Test.Helpers;
 
 namespace Unit_Test.Tests.BusinessLogicTests;

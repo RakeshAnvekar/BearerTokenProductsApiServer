@@ -1,8 +1,6 @@
 ﻿using Moq;
 using ProductsApi.BusinessLogic;
 using ProductsApi.BusinessLogic.Interfaces;
-using ProductsApi.Controllers;
-using ProductsApi.Models.Product;
 using ProductsApi.Repositories.Interfaces;
 using Unit_Test.Helpers;
 
